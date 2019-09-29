@@ -10,7 +10,8 @@ class Home extends React.Component {
     render() {
         return (
             <LayoutDefault location={this.props.location}>
-                <div style={{fontSize: 40, color: "white"}}>{"Hi!"}</div>
+                <div className={"coming-soon"}>Coming soon!</div>
+                <div className={"footer"}></div>
             </LayoutDefault>
         );
     }

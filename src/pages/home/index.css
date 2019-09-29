@@ -1,0 +1,16 @@
+#container {
+    background: linear-gradient(180deg, #4E82DA, #1D478B);
+}
+
+.coming-soon {
+    display: table-cell;
+    width: 100vw;
+    height: 100vh;
+    font-size: 5vw;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    vertical-align: middle;
+    background: url("/watermark.png") center center no-repeat;
+    background-size: contain;
+}
